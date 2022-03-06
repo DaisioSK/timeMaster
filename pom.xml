@@ -21,6 +21,7 @@
 		<common.io.version>2.6</common.io.version>
 		<common.collection.version>4.4</common.collection.version>
 		<fastjson.version>1.2.58</fastjson.version>
+		<commons-codec.version>1.11</commons-codec.version>
 	</properties>
 
 	<dependencies>
@@ -45,6 +46,13 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+		<!-- 加密类相关操作 -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>${commons-codec.version}</version>
 		</dependency>
 
 		<!-- String类相关操作 -->
